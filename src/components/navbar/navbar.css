@@ -1,0 +1,29 @@
+nav {
+    background-color: #1877f2; /* Facebook Blue */
+    padding: 10px 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ajusta el valor de z-index según sea necesario para superponer otros elementos */
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  li {
+    margin-right: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
